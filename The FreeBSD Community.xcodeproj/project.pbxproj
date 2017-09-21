@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E81E101918EC163A00A07B93 /* logo-full.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E101818EC163A00A07B93 /* logo-full.png */; };
+		E81E102218EC1D2B00A07B93 /* logo-29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E101B18EC1D2B00A07B93 /* logo-29x29.png */; };
+		E81E102318EC1D2B00A07B93 /* logo-40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E101C18EC1D2B00A07B93 /* logo-40x40.png */; };
+		E81E102418EC1D2B00A07B93 /* logo-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E101D18EC1D2B00A07B93 /* logo-58x58.png */; };
+		E81E102518EC1D2B00A07B93 /* logo-76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E101E18EC1D2B00A07B93 /* logo-76x76.png */; };
+		E81E102618EC1D2B00A07B93 /* logo-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E101F18EC1D2B00A07B93 /* logo-80x80.png */; };
+		E81E102718EC1D2B00A07B93 /* logo-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E102018EC1D2B00A07B93 /* logo-120x120.png */; };
+		E81E102818EC1D2B00A07B93 /* logo-156x156.png in Resources */ = {isa = PBXBuildFile; fileRef = E81E102118EC1D2B00A07B93 /* logo-156x156.png */; };
+		E883F5A318E6E7850065CD49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F5A218E6E7850065CD49 /* Foundation.framework */; };
+		E883F5A518E6E7850065CD49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F5A418E6E7850065CD49 /* CoreGraphics.framework */; };
+		E883F5A718E6E7850065CD49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F5A618E6E7850065CD49 /* UIKit.framework */; };
+		E883F5AD18E6E7850065CD49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E883F5AB18E6E7850065CD49 /* InfoPlist.strings */; };
+		E883F5B518E6E7850065CD49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E883F5B418E6E7850065CD49 /* Images.xcassets */; };
+		E883F5BC18E6E7850065CD49 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F5BB18E6E7850065CD49 /* XCTest.framework */; };
+		E883F5BD18E6E7850065CD49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F5A218E6E7850065CD49 /* Foundation.framework */; };
+		E883F5BE18E6E7850065CD49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F5A618E6E7850065CD49 /* UIKit.framework */; };
+		E883F5C618E6E7850065CD49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E883F5C418E6E7850065CD49 /* InfoPlist.strings */; };
+		E883F5C818E6E7850065CD49 /* The_FreeBSD_CommunityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5C718E6E7850065CD49 /* The_FreeBSD_CommunityTests.m */; };
+		E883F5DC18E6E7DD0065CD49 /* PlanetFreeBSD_PFBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5D318E6E7DC0065CD49 /* PlanetFreeBSD_PFBObject.m */; };
+		E883F5DD18E6E7DD0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5D518E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.m */; };
+		E883F5DE18E6E7DD0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5D718E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewcontroller.m */; };
+		E883F5DF18E6E7DD0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5D918E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.m */; };
+		E883F5EC18E6E8390065CD49 /* Upcomingevents_UEObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5E518E6E8390065CD49 /* Upcomingevents_UEObject.m */; };
+		E883F5ED18E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5E718E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.m */; };
+		E883F5EE18E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5E918E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.m */; };
+		E883F5EF18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5EB18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.m */; };
+		E883F5F218E6E87B0065CD49 /* MavviesTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5F118E6E87B0065CD49 /* MavviesTools.m */; };
+		E883F5FC18E6E8A60065CD49 /* Youtube_YoutubeData.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5F718E6E8A60065CD49 /* Youtube_YoutubeData.m */; };
+		E883F5FD18E6E8A60065CD49 /* Youtube_YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5F918E6E8A60065CD49 /* Youtube_YoutubeViewController.m */; };
+		E883F5FE18E6E8A60065CD49 /* Youtube_YTObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F5FB18E6E8A60065CD49 /* Youtube_YTObject.m */; };
+		E883F60518E6E8B20065CD49 /* Newsflash_NewsflashData.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F60018E6E8B20065CD49 /* Newsflash_NewsflashData.m */; };
+		E883F60618E6E8B20065CD49 /* Newsflash_NewsflashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F60218E6E8B20065CD49 /* Newsflash_NewsflashViewController.m */; };
+		E883F60718E6E8B20065CD49 /* Newsflash_NFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F60418E6E8B20065CD49 /* Newsflash_NFObject.m */; };
+		E883F61018E6E8C40065CD49 /* Map_MapData.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F60918E6E8C40065CD49 /* Map_MapData.m */; };
+		E883F61118E6E8C40065CD49 /* Map_MapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F60B18E6E8C40065CD49 /* Map_MapObject.m */; };
+		E883F61218E6E8C40065CD49 /* Map_MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F60D18E6E8C40065CD49 /* Map_MapViewController.m */; };
+		E883F61B18E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F61518E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.m */; };
+		E883F61C18E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F61718E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.m */; };
+		E883F61D18E6E9240065CD49 /* FreeBSDCommunity_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F61918E6E9240065CD49 /* FreeBSDCommunity_ViewController.m */; };
+		E883F61E18E6E9240065CD49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F61A18E6E9240065CD49 /* main.m */; };
+		E883F62018E6E9F20065CD49 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F61F18E6E9F20065CD49 /* MapKit.framework */; };
+		E883F62318E6EA200065CD49 /* CSMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F62218E6EA200065CD49 /* CSMapAnnotation.m */; };
+		E883F62718E6EB2E0065CD49 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F62618E6EB2E0065CD49 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E883F62B18E6EE830065CD49 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E883F62A18E6EE830065CD49 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E883F62D18E6EF040065CD49 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E883F62C18E6EF040065CD49 /* libicucore.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E883F5BF18E6E7850065CD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E883F59718E6E7850065CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E883F59E18E6E7850065CD49;
+			remoteInfo = "The FreeBSD Community";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E81E101818EC163A00A07B93 /* logo-full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-full.png"; path = "Graphics/logo-full.png"; sourceTree = "<group>"; };
+		E81E101A18EC175300A07B93 /* FreeBSD - icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "FreeBSD - icon-72.png"; path = "Graphics/FreeBSD - icon-72.png"; sourceTree = "<group>"; };
+		E81E101B18EC1D2B00A07B93 /* logo-29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-29x29.png"; path = "Graphics/logo-29x29.png"; sourceTree = "<group>"; };
+		E81E101C18EC1D2B00A07B93 /* logo-40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-40x40.png"; path = "Graphics/logo-40x40.png"; sourceTree = "<group>"; };
+		E81E101D18EC1D2B00A07B93 /* logo-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-58x58.png"; path = "Graphics/logo-58x58.png"; sourceTree = "<group>"; };
+		E81E101E18EC1D2B00A07B93 /* logo-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-76x76.png"; path = "Graphics/logo-76x76.png"; sourceTree = "<group>"; };
+		E81E101F18EC1D2B00A07B93 /* logo-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-80x80.png"; path = "Graphics/logo-80x80.png"; sourceTree = "<group>"; };
+		E81E102018EC1D2B00A07B93 /* logo-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-120x120.png"; path = "Graphics/logo-120x120.png"; sourceTree = "<group>"; };
+		E81E102118EC1D2B00A07B93 /* logo-156x156.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo-156x156.png"; path = "Graphics/logo-156x156.png"; sourceTree = "<group>"; };
+		E883F59F18E6E7850065CD49 /* The FreeBSD Community.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The FreeBSD Community.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883F5A218E6E7850065CD49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E883F5A418E6E7850065CD49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E883F5A618E6E7850065CD49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E883F5AA18E6E7850065CD49 /* The FreeBSD Community-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The FreeBSD Community-Info.plist"; sourceTree = "<group>"; };
+		E883F5AC18E6E7850065CD49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E883F5B018E6E7850065CD49 /* The FreeBSD Community-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The FreeBSD Community-Prefix.pch"; sourceTree = "<group>"; };
+		E883F5B418E6E7850065CD49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E883F5BA18E6E7850065CD49 /* The FreeBSD CommunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The FreeBSD CommunityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E883F5BB18E6E7850065CD49 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E883F5C318E6E7850065CD49 /* The FreeBSD CommunityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "The FreeBSD CommunityTests-Info.plist"; sourceTree = "<group>"; };
+		E883F5C518E6E7850065CD49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E883F5C718E6E7850065CD49 /* The_FreeBSD_CommunityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = The_FreeBSD_CommunityTests.m; sourceTree = "<group>"; };
+		E883F5D218E6E7DC0065CD49 /* PlanetFreeBSD_PFBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetFreeBSD_PFBObject.h; sourceTree = SOURCE_ROOT; };
+		E883F5D318E6E7DC0065CD49 /* PlanetFreeBSD_PFBObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetFreeBSD_PFBObject.m; sourceTree = SOURCE_ROOT; };
+		E883F5D418E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetFreeBSD_PlanetFreeBSDData.h; sourceTree = SOURCE_ROOT; };
+		E883F5D518E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetFreeBSD_PlanetFreeBSDData.m; sourceTree = SOURCE_ROOT; };
+		E883F5D618E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetFreeBSD_PlanetFreeBSDViewController.h; sourceTree = SOURCE_ROOT; };
+		E883F5D718E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetFreeBSD_PlanetFreeBSDViewcontroller.m; sourceTree = SOURCE_ROOT; };
+		E883F5D818E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetFreeBSD_PlanetFreeBSDWebViewController.h; sourceTree = SOURCE_ROOT; };
+		E883F5D918E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetFreeBSD_PlanetFreeBSDWebViewController.m; sourceTree = SOURCE_ROOT; };
+		E883F5E218E6E7FB0065CD49 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegexKitLite.h; path = "../../RegexKitLite-4.0/RegexKitLite.h"; sourceTree = "<group>"; };
+		E883F5E418E6E8390065CD49 /* Upcomingevents_UEObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Upcomingevents_UEObject.h; sourceTree = SOURCE_ROOT; };
+		E883F5E518E6E8390065CD49 /* Upcomingevents_UEObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Upcomingevents_UEObject.m; sourceTree = SOURCE_ROOT; };
+		E883F5E618E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Upcomingevents_UpcomingeventsData.h; sourceTree = SOURCE_ROOT; };
+		E883F5E718E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Upcomingevents_UpcomingeventsData.m; sourceTree = SOURCE_ROOT; };
+		E883F5E818E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Upcomingevents_UpcomingeventsViewController.h; sourceTree = SOURCE_ROOT; };
+		E883F5E918E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Upcomingevents_UpcomingeventsViewController.m; sourceTree = SOURCE_ROOT; };
+		E883F5EA18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Upcomingevents_UpcomingeventsWebViewController.h; sourceTree = SOURCE_ROOT; };
+		E883F5EB18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Upcomingevents_UpcomingeventsWebViewController.m; sourceTree = SOURCE_ROOT; };
+		E883F5F018E6E87B0065CD49 /* MavviesTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MavviesTools.h; sourceTree = "<group>"; };
+		E883F5F118E6E87B0065CD49 /* MavviesTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MavviesTools.m; sourceTree = "<group>"; };
+		E883F5F618E6E8A60065CD49 /* Youtube_YoutubeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Youtube_YoutubeData.h; sourceTree = "<group>"; };
+		E883F5F718E6E8A60065CD49 /* Youtube_YoutubeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Youtube_YoutubeData.m; sourceTree = "<group>"; };
+		E883F5F818E6E8A60065CD49 /* Youtube_YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Youtube_YoutubeViewController.h; sourceTree = "<group>"; };
+		E883F5F918E6E8A60065CD49 /* Youtube_YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Youtube_YoutubeViewController.m; sourceTree = "<group>"; };
+		E883F5FA18E6E8A60065CD49 /* Youtube_YTObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Youtube_YTObject.h; sourceTree = "<group>"; };
+		E883F5FB18E6E8A60065CD49 /* Youtube_YTObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Youtube_YTObject.m; sourceTree = "<group>"; };
+		E883F5FF18E6E8B20065CD49 /* Newsflash_NewsflashData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newsflash_NewsflashData.h; sourceTree = "<group>"; };
+		E883F60018E6E8B20065CD49 /* Newsflash_NewsflashData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newsflash_NewsflashData.m; sourceTree = "<group>"; };
+		E883F60118E6E8B20065CD49 /* Newsflash_NewsflashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newsflash_NewsflashViewController.h; sourceTree = "<group>"; };
+		E883F60218E6E8B20065CD49 /* Newsflash_NewsflashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newsflash_NewsflashViewController.m; sourceTree = "<group>"; };
+		E883F60318E6E8B20065CD49 /* Newsflash_NFObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newsflash_NFObject.h; sourceTree = "<group>"; };
+		E883F60418E6E8B20065CD49 /* Newsflash_NFObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newsflash_NFObject.m; sourceTree = "<group>"; };
+		E883F60818E6E8C40065CD49 /* Map_MapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map_MapData.h; sourceTree = "<group>"; };
+		E883F60918E6E8C40065CD49 /* Map_MapData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map_MapData.m; sourceTree = "<group>"; };
+		E883F60A18E6E8C40065CD49 /* Map_MapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map_MapObject.h; sourceTree = "<group>"; };
+		E883F60B18E6E8C40065CD49 /* Map_MapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map_MapObject.m; sourceTree = "<group>"; };
+		E883F60C18E6E8C40065CD49 /* Map_MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map_MapViewController.h; sourceTree = "<group>"; };
+		E883F60D18E6E8C40065CD49 /* Map_MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map_MapViewController.m; sourceTree = "<group>"; };
+		E883F61418E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeBSDCommunity_AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		E883F61518E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeBSDCommunity_AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		E883F61618E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeBSDCommunity_RefreshObject.h; sourceTree = SOURCE_ROOT; };
+		E883F61718E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeBSDCommunity_RefreshObject.m; sourceTree = SOURCE_ROOT; };
+		E883F61818E6E9240065CD49 /* FreeBSDCommunity_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeBSDCommunity_ViewController.h; sourceTree = SOURCE_ROOT; };
+		E883F61918E6E9240065CD49 /* FreeBSDCommunity_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FreeBSDCommunity_ViewController.m; sourceTree = SOURCE_ROOT; };
+		E883F61A18E6E9240065CD49 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		E883F61F18E6E9F20065CD49 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E883F62118E6EA200065CD49 /* CSMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMapAnnotation.h; sourceTree = "<group>"; };
+		E883F62218E6EA200065CD49 /* CSMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMapAnnotation.m; sourceTree = "<group>"; };
+		E883F62418E6EB0C0065CD49 /* FreeBSD Community.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FreeBSD Community.h"; sourceTree = SOURCE_ROOT; };
+		E883F62518E6EB2E0065CD49 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		E883F62618E6EB2E0065CD49 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		E883F62A18E6EE830065CD49 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegexKitLite.m; path = "../../RegexKitLite-4.0/RegexKitLite.m"; sourceTree = "<group>"; };
+		E883F62C18E6EF040065CD49 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E883F59C18E6E7850065CD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883F62D18E6EF040065CD49 /* libicucore.dylib in Frameworks */,
+				E883F62018E6E9F20065CD49 /* MapKit.framework in Frameworks */,
+				E883F5A518E6E7850065CD49 /* CoreGraphics.framework in Frameworks */,
+				E883F5A718E6E7850065CD49 /* UIKit.framework in Frameworks */,
+				E883F5A318E6E7850065CD49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883F5B718E6E7850065CD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883F5BC18E6E7850065CD49 /* XCTest.framework in Frameworks */,
+				E883F5BE18E6E7850065CD49 /* UIKit.framework in Frameworks */,
+				E883F5BD18E6E7850065CD49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E81E101718EC15AD00A07B93 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				E81E101B18EC1D2B00A07B93 /* logo-29x29.png */,
+				E81E101C18EC1D2B00A07B93 /* logo-40x40.png */,
+				E81E101D18EC1D2B00A07B93 /* logo-58x58.png */,
+				E81E101E18EC1D2B00A07B93 /* logo-76x76.png */,
+				E81E101F18EC1D2B00A07B93 /* logo-80x80.png */,
+				E81E102018EC1D2B00A07B93 /* logo-120x120.png */,
+				E81E102118EC1D2B00A07B93 /* logo-156x156.png */,
+				E81E101818EC163A00A07B93 /* logo-full.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		E883F59618E6E7850065CD49 = {
+			isa = PBXGroup;
+			children = (
+				E81E101A18EC175300A07B93 /* FreeBSD - icon-72.png */,
+				E81E101718EC15AD00A07B93 /* Graphics */,
+				E883F5F518E6E8970065CD49 /* Map */,
+				E883F5F418E6E8920065CD49 /* Youtube */,
+				E883F5F318E6E88B0065CD49 /* Newsflash */,
+				E883F5D118E6E7C60065CD49 /* Planet FreeBSD */,
+				E883F5E318E6E8200065CD49 /* Upcoming Events */,
+				E883F5E118E6E7EA0065CD49 /* Tools */,
+				E883F5A818E6E7850065CD49 /* The FreeBSD Community */,
+				E883F5C118E6E7850065CD49 /* The FreeBSD CommunityTests */,
+				E883F5A118E6E7850065CD49 /* Frameworks */,
+				E883F5A018E6E7850065CD49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E883F5A018E6E7850065CD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E883F59F18E6E7850065CD49 /* The FreeBSD Community.app */,
+				E883F5BA18E6E7850065CD49 /* The FreeBSD CommunityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E883F5A118E6E7850065CD49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E883F62C18E6EF040065CD49 /* libicucore.dylib */,
+				E883F61F18E6E9F20065CD49 /* MapKit.framework */,
+				E883F5A218E6E7850065CD49 /* Foundation.framework */,
+				E883F5A418E6E7850065CD49 /* CoreGraphics.framework */,
+				E883F5A618E6E7850065CD49 /* UIKit.framework */,
+				E883F5BB18E6E7850065CD49 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E883F5A818E6E7850065CD49 /* The FreeBSD Community */ = {
+			isa = PBXGroup;
+			children = (
+				E883F62418E6EB0C0065CD49 /* FreeBSD Community.h */,
+				E883F61418E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.h */,
+				E883F61518E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.m */,
+				E883F61618E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.h */,
+				E883F61718E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.m */,
+				E883F61818E6E9240065CD49 /* FreeBSDCommunity_ViewController.h */,
+				E883F61918E6E9240065CD49 /* FreeBSDCommunity_ViewController.m */,
+				E883F61A18E6E9240065CD49 /* main.m */,
+				E883F5B418E6E7850065CD49 /* Images.xcassets */,
+				E883F5A918E6E7850065CD49 /* Supporting Files */,
+			);
+			path = "The FreeBSD Community";
+			sourceTree = "<group>";
+		};
+		E883F5A918E6E7850065CD49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5AA18E6E7850065CD49 /* The FreeBSD Community-Info.plist */,
+				E883F5AB18E6E7850065CD49 /* InfoPlist.strings */,
+				E883F5B018E6E7850065CD49 /* The FreeBSD Community-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E883F5C118E6E7850065CD49 /* The FreeBSD CommunityTests */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5C718E6E7850065CD49 /* The_FreeBSD_CommunityTests.m */,
+				E883F5C218E6E7850065CD49 /* Supporting Files */,
+			);
+			path = "The FreeBSD CommunityTests";
+			sourceTree = "<group>";
+		};
+		E883F5C218E6E7850065CD49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5C318E6E7850065CD49 /* The FreeBSD CommunityTests-Info.plist */,
+				E883F5C418E6E7850065CD49 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E883F5D118E6E7C60065CD49 /* Planet FreeBSD */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5D218E6E7DC0065CD49 /* PlanetFreeBSD_PFBObject.h */,
+				E883F5D318E6E7DC0065CD49 /* PlanetFreeBSD_PFBObject.m */,
+				E883F5D418E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.h */,
+				E883F5D518E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.m */,
+				E883F5D618E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewController.h */,
+				E883F5D718E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewcontroller.m */,
+				E883F5D818E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.h */,
+				E883F5D918E6E7DC0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.m */,
+			);
+			name = "Planet FreeBSD";
+			path = "The FreeBSD Community";
+			sourceTree = "<group>";
+		};
+		E883F5E118E6E7EA0065CD49 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				E883F62A18E6EE830065CD49 /* RegexKitLite.m */,
+				E883F62518E6EB2E0065CD49 /* Reachability.h */,
+				E883F62618E6EB2E0065CD49 /* Reachability.m */,
+				E883F5F018E6E87B0065CD49 /* MavviesTools.h */,
+				E883F5F118E6E87B0065CD49 /* MavviesTools.m */,
+				E883F5E218E6E7FB0065CD49 /* RegexKitLite.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		E883F5E318E6E8200065CD49 /* Upcoming Events */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5E418E6E8390065CD49 /* Upcomingevents_UEObject.h */,
+				E883F5E518E6E8390065CD49 /* Upcomingevents_UEObject.m */,
+				E883F5E618E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.h */,
+				E883F5E718E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.m */,
+				E883F5E818E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.h */,
+				E883F5E918E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.m */,
+				E883F5EA18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.h */,
+				E883F5EB18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.m */,
+			);
+			name = "Upcoming Events";
+			path = "The FreeBSD Community";
+			sourceTree = "<group>";
+		};
+		E883F5F318E6E88B0065CD49 /* Newsflash */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5FF18E6E8B20065CD49 /* Newsflash_NewsflashData.h */,
+				E883F60018E6E8B20065CD49 /* Newsflash_NewsflashData.m */,
+				E883F60118E6E8B20065CD49 /* Newsflash_NewsflashViewController.h */,
+				E883F60218E6E8B20065CD49 /* Newsflash_NewsflashViewController.m */,
+				E883F60318E6E8B20065CD49 /* Newsflash_NFObject.h */,
+				E883F60418E6E8B20065CD49 /* Newsflash_NFObject.m */,
+			);
+			name = Newsflash;
+			sourceTree = "<group>";
+		};
+		E883F5F418E6E8920065CD49 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				E883F5F618E6E8A60065CD49 /* Youtube_YoutubeData.h */,
+				E883F5F718E6E8A60065CD49 /* Youtube_YoutubeData.m */,
+				E883F5F818E6E8A60065CD49 /* Youtube_YoutubeViewController.h */,
+				E883F5F918E6E8A60065CD49 /* Youtube_YoutubeViewController.m */,
+				E883F5FA18E6E8A60065CD49 /* Youtube_YTObject.h */,
+				E883F5FB18E6E8A60065CD49 /* Youtube_YTObject.m */,
+			);
+			name = Youtube;
+			sourceTree = "<group>";
+		};
+		E883F5F518E6E8970065CD49 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E883F62118E6EA200065CD49 /* CSMapAnnotation.h */,
+				E883F62218E6EA200065CD49 /* CSMapAnnotation.m */,
+				E883F60818E6E8C40065CD49 /* Map_MapData.h */,
+				E883F60918E6E8C40065CD49 /* Map_MapData.m */,
+				E883F60A18E6E8C40065CD49 /* Map_MapObject.h */,
+				E883F60B18E6E8C40065CD49 /* Map_MapObject.m */,
+				E883F60C18E6E8C40065CD49 /* Map_MapViewController.h */,
+				E883F60D18E6E8C40065CD49 /* Map_MapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E883F59E18E6E7850065CD49 /* The FreeBSD Community */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883F5CB18E6E7850065CD49 /* Build configuration list for PBXNativeTarget "The FreeBSD Community" */;
+			buildPhases = (
+				E883F59B18E6E7850065CD49 /* Sources */,
+				E883F59C18E6E7850065CD49 /* Frameworks */,
+				E883F59D18E6E7850065CD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The FreeBSD Community";
+			productName = "The FreeBSD Community";
+			productReference = E883F59F18E6E7850065CD49 /* The FreeBSD Community.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E883F5B918E6E7850065CD49 /* The FreeBSD CommunityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E883F5CE18E6E7850065CD49 /* Build configuration list for PBXNativeTarget "The FreeBSD CommunityTests" */;
+			buildPhases = (
+				E883F5B618E6E7850065CD49 /* Sources */,
+				E883F5B718E6E7850065CD49 /* Frameworks */,
+				E883F5B818E6E7850065CD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E883F5C018E6E7850065CD49 /* PBXTargetDependency */,
+			);
+			name = "The FreeBSD CommunityTests";
+			productName = "The FreeBSD CommunityTests";
+			productReference = E883F5BA18E6E7850065CD49 /* The FreeBSD CommunityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E883F59718E6E7850065CD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					E883F59E18E6E7850065CD49 = {
+						DevelopmentTeam = NRQ2A5FE8M;
+					};
+					E883F5B918E6E7850065CD49 = {
+						TestTargetID = E883F59E18E6E7850065CD49;
+					};
+				};
+			};
+			buildConfigurationList = E883F59A18E6E7850065CD49 /* Build configuration list for PBXProject "The FreeBSD Community" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E883F59618E6E7850065CD49;
+			productRefGroup = E883F5A018E6E7850065CD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E883F59E18E6E7850065CD49 /* The FreeBSD Community */,
+				E883F5B918E6E7850065CD49 /* The FreeBSD CommunityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E883F59D18E6E7850065CD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81E101918EC163A00A07B93 /* logo-full.png in Resources */,
+				E81E102218EC1D2B00A07B93 /* logo-29x29.png in Resources */,
+				E883F5AD18E6E7850065CD49 /* InfoPlist.strings in Resources */,
+				E81E102818EC1D2B00A07B93 /* logo-156x156.png in Resources */,
+				E81E102418EC1D2B00A07B93 /* logo-58x58.png in Resources */,
+				E81E102518EC1D2B00A07B93 /* logo-76x76.png in Resources */,
+				E81E102318EC1D2B00A07B93 /* logo-40x40.png in Resources */,
+				E883F5B518E6E7850065CD49 /* Images.xcassets in Resources */,
+				E81E102718EC1D2B00A07B93 /* logo-120x120.png in Resources */,
+				E81E102618EC1D2B00A07B93 /* logo-80x80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883F5B818E6E7850065CD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883F5C618E6E7850065CD49 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E883F59B18E6E7850065CD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883F61D18E6E9240065CD49 /* FreeBSDCommunity_ViewController.m in Sources */,
+				E883F61C18E6E9240065CD49 /* FreeBSDCommunity_RefreshObject.m in Sources */,
+				E883F62318E6EA200065CD49 /* CSMapAnnotation.m in Sources */,
+				E883F5DE18E6E7DD0065CD49 /* PlanetFreeBSD_PlanetFreeBSDViewcontroller.m in Sources */,
+				E883F5EF18E6E8390065CD49 /* Upcomingevents_UpcomingeventsWebViewController.m in Sources */,
+				E883F60618E6E8B20065CD49 /* Newsflash_NewsflashViewController.m in Sources */,
+				E883F5FD18E6E8A60065CD49 /* Youtube_YoutubeViewController.m in Sources */,
+				E883F5DC18E6E7DD0065CD49 /* PlanetFreeBSD_PFBObject.m in Sources */,
+				E883F62B18E6EE830065CD49 /* RegexKitLite.m in Sources */,
+				E883F60718E6E8B20065CD49 /* Newsflash_NFObject.m in Sources */,
+				E883F5DD18E6E7DD0065CD49 /* PlanetFreeBSD_PlanetFreeBSDData.m in Sources */,
+				E883F62718E6EB2E0065CD49 /* Reachability.m in Sources */,
+				E883F5DF18E6E7DD0065CD49 /* PlanetFreeBSD_PlanetFreeBSDWebViewController.m in Sources */,
+				E883F5ED18E6E8390065CD49 /* Upcomingevents_UpcomingeventsData.m in Sources */,
+				E883F5EC18E6E8390065CD49 /* Upcomingevents_UEObject.m in Sources */,
+				E883F5EE18E6E8390065CD49 /* Upcomingevents_UpcomingeventsViewController.m in Sources */,
+				E883F61018E6E8C40065CD49 /* Map_MapData.m in Sources */,
+				E883F60518E6E8B20065CD49 /* Newsflash_NewsflashData.m in Sources */,
+				E883F5F218E6E87B0065CD49 /* MavviesTools.m in Sources */,
+				E883F61218E6E8C40065CD49 /* Map_MapViewController.m in Sources */,
+				E883F5FC18E6E8A60065CD49 /* Youtube_YoutubeData.m in Sources */,
+				E883F5FE18E6E8A60065CD49 /* Youtube_YTObject.m in Sources */,
+				E883F61118E6E8C40065CD49 /* Map_MapObject.m in Sources */,
+				E883F61E18E6E9240065CD49 /* main.m in Sources */,
+				E883F61B18E6E9240065CD49 /* FreeBSDCommunity_AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E883F5B618E6E7850065CD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E883F5C818E6E7850065CD49 /* The_FreeBSD_CommunityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E883F5C018E6E7850065CD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E883F59E18E6E7850065CD49 /* The FreeBSD Community */;
+			targetProxy = E883F5BF18E6E7850065CD49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E883F5AB18E6E7850065CD49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883F5AC18E6E7850065CD49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E883F5C418E6E7850065CD49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E883F5C518E6E7850065CD49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E883F5C918E6E7850065CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E883F5CA18E6E7850065CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E883F5CC18E6E7850065CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The FreeBSD Community/The FreeBSD Community-Prefix.pch";
+				INFOPLIST_FILE = "The FreeBSD Community/The FreeBSD Community-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E883F5CD18E6E7850065CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The FreeBSD Community/The FreeBSD Community-Prefix.pch";
+				INFOPLIST_FILE = "The FreeBSD Community/The FreeBSD Community-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E883F5CF18E6E7850065CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The FreeBSD Community.app/The FreeBSD Community";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The FreeBSD Community/The FreeBSD Community-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "The FreeBSD CommunityTests/The FreeBSD CommunityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E883F5D018E6E7850065CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/The FreeBSD Community.app/The FreeBSD Community";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "The FreeBSD Community/The FreeBSD Community-Prefix.pch";
+				INFOPLIST_FILE = "The FreeBSD CommunityTests/The FreeBSD CommunityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E883F59A18E6E7850065CD49 /* Build configuration list for PBXProject "The FreeBSD Community" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883F5C918E6E7850065CD49 /* Debug */,
+				E883F5CA18E6E7850065CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883F5CB18E6E7850065CD49 /* Build configuration list for PBXNativeTarget "The FreeBSD Community" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883F5CC18E6E7850065CD49 /* Debug */,
+				E883F5CD18E6E7850065CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E883F5CE18E6E7850065CD49 /* Build configuration list for PBXNativeTarget "The FreeBSD CommunityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E883F5CF18E6E7850065CD49 /* Debug */,
+				E883F5D018E6E7850065CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E883F59718E6E7850065CD49 /* Project object */;
+}
